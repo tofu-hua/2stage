@@ -20,7 +20,7 @@ import os
 from sys import argv
 from locale import atof, atoi
 
-
+kwarg = {'start_mean' : 1500, 'update_var':True}
 # set start_sig, mode
 start_period = 10
 start_sig = 50
